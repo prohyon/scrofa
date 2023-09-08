@@ -8,4 +8,4 @@ expr: expr PLUS expr
 
 NUM: [0-9]+;
 PLUS: '+';
-WS: [ \n] -> skip;
+WS: [ \n]+ -> skip;
